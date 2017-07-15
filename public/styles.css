@@ -1,0 +1,29 @@
+body {
+    background-color: #EEEEEE;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+p, ul {
+    font-size: 18px;
+}
+
+.image {
+    width: 100%;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+}
+
+.section {
+    width: 50%;
+    margin: 10px;
+    margin-left: 20px;    
+}
+
+.subsection {
+    margin: 16px;
+    margin-top: 32px;    
+}

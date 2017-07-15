@@ -1,12 +1,13 @@
 "use strict";
 
-const express = require('express')
-const app = express()
+var express = require('express');
+var app = express();
+var path = require('path');
 
-app.get('/', function (req, res) {
-  res.send('hello there')
-})
+app.use(express.static('public'));
 
-app.listen(8080, function () {
-  console.log('listening on 8080')
-})
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/wilhelm.html'));
+});
+
+app.listen(8080);
