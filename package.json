@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "test"
+    "start": "node app.js"
   },
   "author": "wilhelm eek",
   "license": "ISC"
