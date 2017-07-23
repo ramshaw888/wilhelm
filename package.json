@@ -8,8 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start-win": "node app.js",
-    "start-linux": "nodejs app.js"
+    "start": "node app.js"
   },
   "author": "wilhelm eek",
   "license": "ISC"
